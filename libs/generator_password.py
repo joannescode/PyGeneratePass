@@ -11,7 +11,7 @@ class PassGen:
 
     def get_length_password(self):
         self.password_length = int(
-            getpass.getpass("Please enter a number of 8 to 14 characters.\n")
+            input("Please enter a number of 8 to 14 characters: ")
         )
 
         if self.password_length > 14:
@@ -58,10 +58,3 @@ class PassGen:
             time.sleep(3)
             os.system("clear")
             pass
-
-
-# Exemplo de uso:
-passgen = PassGen()
-passgen.get_length_password()
-passgen.get_random_string()
-passgen.interation_with_user()
