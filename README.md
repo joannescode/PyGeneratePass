@@ -1,6 +1,6 @@
 # Gerador de Senhas Aleatórias em Python
 
-Este é um simples gerador de senhas aleatórias em Python que permite ao usuário escolher o tamanho da senha (de 8 a 14 caracteres) e a composição da senha (texto, números e caracteres especiais).
+Este é um simples gerador de senhas aleatórias em Python que permite ao usuário escolher o tamanho da senha (de 8 a 14 caracteres).
 
 ## Funcionalidades
 
